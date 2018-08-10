@@ -146,7 +146,7 @@ if __name__ == '__main__':
     # Windows does not use commands to set the wallpaper by default, so the
     # argument is hidden. A Windows user can still use a command to set the
     # wallpaper if they wish to do so.
-    default_command = None if is_windows() else 'feh --bg-scale {}'
+    default_command = None if is_windows() else 'gsettings set org.gnome.desktop.background picture-uri {}'
     command_argument_help = argparse.SUPPRESS if is_windows() else 'Command to \
                 be executed for setting the wallpaper, use "{}" as a \
                 placeholder for the image (default: "feh --bg-scale {}").'
