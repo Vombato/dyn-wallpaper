@@ -84,7 +84,7 @@ $ python set_wallpaper.py Rome ~/Images/Wallpapers -c "gsettings set org.gnome.d
 ```
 
 ## Plasma / KDE 5
-I didn't find a good way to do it for now. Sorry.
+I didn't find a simple way to do it. There are some workarounds like: [/pashazz/ksetwallpaper]https://github.com/pashazz/ksetwallpaper
 
 
 
